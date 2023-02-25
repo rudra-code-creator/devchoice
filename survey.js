@@ -1,0 +1,3 @@
+ (function(i, s, o, g, r, a, m) { s.querySelectorAll("[data-quiz]:not([data-emtype='1'])").forEach(function(i, x) { x = !i.f ? (i.f = function(i) { return function(e) { try { qz.startQuiz(i) } catch (z) { i.style.cssText += 'cursor:wait;opacity:.5' }
+e.returnValue = !(!e.preventDefault || e.preventDefault()) } }(i)) + !i.attachEvent ? i.addEventListener('click', i.f, true) : i.attachEvent('onClick', i.f) : 1 }); if (i[r] != g) { i[r] = g; a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async
+= 1; a.src = g; m.parentNode.insertBefore(a, m) } })(window, document, 'script', 'https://poll-maker.com/3012/CDN/quiz-embed-v2.js', 'qp')

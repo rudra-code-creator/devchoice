@@ -1,0 +1,18 @@
+{
+  "name": "devvote",
+  "version": "1.0.0",
+  "description": "A website for developers to vote on there favorite technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm -v"
+  },
+  "author": "Rudra Keshwani",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^10.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
